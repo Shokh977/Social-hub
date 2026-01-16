@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import profileImg from '../assets/photo_2026-01-16_14-16-18.jpg'
 
 export default function Profile() {
   const idNumber = "ID: 2024-001" // Fixed ID
@@ -12,7 +13,7 @@ export default function Profile() {
     >
       <div className="badge-label">CREATOR PASS</div>
       <img
-        src="https://i.pravatar.cc/150?img=32"
+        src={profileImg}
         alt="Profile"
         className="avatar"
       />
